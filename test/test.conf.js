@@ -1,5 +1,5 @@
 basePath = '..';
-
+browsers = ['PhantomJS'];
 files = [
   JASMINE,
   JASMINE_ADAPTER,
