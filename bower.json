@@ -1,0 +1,9 @@
+{
+  "name": "ui-select2-example",
+  "version": "1.0",
+  "main": "",
+  "dependencies": {
+    "angular-ui-select2": "latest"
+  }
+}
+

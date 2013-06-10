@@ -1,0 +1,23 @@
+<html ng-app="example">
+  <head>
+    <script type="text/javascript" src="components/jquery/jquery.js"></script>
+    <script type="text/javascript" src="components/angular/angular.js"></script>
+    <script type="text/javascript" src="components/select2/select2.js"></script>
+    <script type="text/javascript" src="components/angular-ui-select2/src/select2.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <link rel="StyleSheet" href="components/select2/select2.css" />
+  </head>
+  <body>
+    <div ng-controller="Example1Ctrl">
+      <h1>Simple select</h1>
+      html select
+      <select ui-select2 ng-model="example1" ng-change="change()" style="width:300px">
+	<option value="val1"> Value 1</option>
+	<option value="val2"> Value 2</option>
+	<option value="val3"> Value 3</option>
+      </select>
+      The value is: {{example1}}
+      <p ng-model="output1"></p>
+    </div>
+  </body>
+</html>
